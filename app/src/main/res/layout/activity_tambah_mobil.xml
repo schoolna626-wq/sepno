@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edit_kode_mobil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kode Mobil"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edit_merek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Merek Mobil"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edit_tipe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tipe Mobil"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edit_warna"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Warna Mobil"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edit_harga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Harga Mobil"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/tombol_simpan_mobil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Simpan Data Mobil" />
+
+</LinearLayout>
